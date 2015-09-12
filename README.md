@@ -1,6 +1,6 @@
 ## AWS IP Addresses Diff Notification
 
-Amazon Web Services (AWS) publishes its current IP address ranges in JSON format. However, a diff that provides the changes is not readily available. Subscribe to `arn:aws:sns:us-east-1:727601202873:ip-ranges-diff` to get notified about changes to AWS IP address ranges.
+Amazon Web Services (AWS) publishes its current IP address ranges in JSON format. However, a diff that provides the changes is not readily available. Subscribe to `arn:aws:sns:us-east-1:727601202873:ip-ranges-diff` to get notified about *what* changed in the latest AWS IP address ranges.
 
 Additionally, the `ip-ranges.json` file is updated with the total number of IP addresses used by each AWS service:
 
