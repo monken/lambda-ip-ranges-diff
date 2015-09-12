@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.2.0",
+    "bluebird": "^2.10.0",
+    "lodash": "^3.10.1",
+    "request": "^2.61.0",
+    "rfc6902-json-diff": "^0.1.2"
+  }
+}
