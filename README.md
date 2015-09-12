@@ -88,7 +88,7 @@ Whenever there is a change to the AWS IP address ranges, we send notifications t
 
 1. In TopicARN, enter the following Amazon Resource Name (ARN):
 
-    ```arn:aws:sns:us-east-1:727601202873:ip-ranges-diff```
+   `arn:aws:sns:us-east-1:727601202873:ip-ranges-diff`
 
 1. In Protocol, select the protocol that you want. For example, select Email.
 
