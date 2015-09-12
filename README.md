@@ -2,7 +2,7 @@
 
 Amazon Web Services (AWS) publishes its current IP address ranges in JSON format. However, a diff that provides the changes is not readily available. Subscribe to `arn:aws:sns:us-east-1:727601202873:ip-ranges-diff` to get notified about *what* changed in the latest AWS IP address ranges.
 
-Additionally, the `ip-ranges.json` file is updated with the total number of IP addresses used by each AWS service:
+Additionally, this version of the `ip-ranges.json` file is updated with the total number of IP addresses used by each AWS service:
 
 ```javascript
 // https://ip-ranges-diff.s3.amazonaws.com/ranges/2015-09-11-21-22-03-1442004734.json
@@ -78,7 +78,7 @@ Whenever there is a change to the AWS IP address ranges, we send notifications t
 
 1. Open the Amazon SNS console at https://console.aws.amazon.com/sns/.
 
-1. In the navigation bar, change the region to US East (N. Virginia), if necessary. You must select this region because the SNS notifications that you are subscribing to were created in this region.
+1. In the navigation bar, change the region to **US East (N. Virginia)**, if necessary. You must select this region because the SNS notifications that you are subscribing to were created in this region.
 
 1. In the navigation pane, choose Subscriptions.
 
